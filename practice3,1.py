@@ -11,7 +11,7 @@ class ProgrammingLanguageCourse:
         self._dates.append(date )
     def _showInfo(self):
         return f"Start date of class: {self._startDate}\tEnd date of class: {self._endDate}\tLevel course is: {self._levelCourse}\t Teacher name is: {self._teacher}"
-#-----------------------------------child class
+#-----------------------------------child class  
 class Python(ProgrammingLanguageCourse):
     def __init__(self, pythonCode, pythonCost, startDate, endDate, levelCourse, teacher):
         super().__init__(startDate, endDate, levelCourse, teacher)
